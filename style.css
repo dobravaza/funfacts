@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+	height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #651e35;
+}
+
+.box {
+	color: black;
+	font-weight: 900;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 600px;
+	min-height: 200px;
+	padding: 30px;
+	border-radius: 8px;
+	background-color: #d1d0d0;
+}
+
+.fun-fact {
+	margin-top: 20px;
+	text-align: center;
+}
+button {
+	position: absolute;
+	bottom: 650px;
+	padding: 10px 30px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 67, 0);
+	border-radius: 30px;
+	cursor: pointer;
+}
